@@ -1,4 +1,5 @@
-const Aluno = require('../models/Aluno');
+const Aluno = require('../models/aluno');
+
 
 exports.getAlunos = async (req, res) => {
     const alunos = await Aluno.find();

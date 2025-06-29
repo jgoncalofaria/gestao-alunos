@@ -1,0 +1,24 @@
+{
+  "alunos": [
+    {
+      "nome": "João",
+      "apelido": "Silva",
+      "curso": "Informática",
+      "anoCurricular": 2
+    },
+    {
+      "nome": "Gonçalo",
+      "apelido": "Faria",
+      "curso": "Engenharia",
+      "anoCurricular": 3
+    }
+  ],
+  "cursos": [
+    {
+      "nomeDoCurso": "Informática"
+    },
+    {
+      "nomeDoCurso": "Engenharia"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gestão de Alunos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Gestão de Alunos</h1>
+
+  <form id="aluno-form">
+    <input type="hidden" name="aluno-id" id="aluno-id" />
+    <input name="nome" placeholder="Nome" required />
+    <input name="apelido" placeholder="Apelido" required />
+    <input name="curso" placeholder="Curso" required />
+    <input name="anoCurricular" type="number" placeholder="Ano" required />
+    <button type="submit">Guardar</button>
+  </form>
+
+  <h2>Lista de Alunos</h2>
+  <div id="lista-alunos"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
